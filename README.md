@@ -53,3 +53,8 @@ helm install <release> <chart> --dry-run
 helm upgrade <release> <chart> --dry-run
 ```
 
+Fazer download de um chart remoto
+
+```cmd
+helm pull estag/wordpress
+```
